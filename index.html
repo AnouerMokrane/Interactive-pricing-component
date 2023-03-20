@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <main>
+      <div class="heading">
+        <h1>Simple, traffic-based pricing</h1>
+        <p>Sign-up for our 30-day trial.</p>
+        <p>No credit card required.</p>
+      </div>
+      <div class="card">
+        <div class="top-sec">
+          <div class="col">
+            <p class="pageviews"><span>100</span>k Pageviews</p>
+            <div class="range-container">
+              <input type="range" class="myrange" min="0" max="4" step="1" />
+              <div class="progress"></div>
+            </div>
+            <div class="price"><span>$8.00</span> /month</div>
+          </div>
+          <div class="plan">
+            <p>Monthly Billing</p>
+            <div class="toggle"></div>
+            <p>Yearly Billing <span class="discount">-25%</span></p>
+          </div>
+        </div>
+        <div class="bottom-sec">
+          <div class="futures">
+            <ul>
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+          </div>
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="./app.js"></script>
+  </body>
+</html>
